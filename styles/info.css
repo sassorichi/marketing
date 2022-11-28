@@ -1,0 +1,49 @@
+.info {
+    padding: 128px 0px;
+}
+
+.info button {
+    font-size: 16px;
+    font-weight: 500;
+    color: purple;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 16px;
+    background-color: #F7F1FF 
+}
+
+.info .container {
+    text-align: center;
+}
+
+.info__title {
+    font-weight: 700;
+    font-size: 32px;
+    padding-top: 24px;
+}
+
+.info__text {
+    font-size: 16px;
+    color: gray;
+    padding: 24px 0px;
+}
+
+
+.card__title {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 0px;
+}
+
+.container .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 870px) {
+    .container .wrapper {
+        text-align: center;
+        justify-content: center;
+    }
+}

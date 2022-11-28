@@ -1,0 +1,43 @@
+.product .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product button {
+    font-size: 16px;
+    font-weight: 500;
+    color: purple;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 16px;
+    background-color: #F7F1FF 
+}
+
+.product__title {
+    font-weight: 700;
+    font-size: 32px;
+    padding: 20px 0px;
+}
+
+.product__text {
+    color: gray;
+    font-size: 16px;
+}
+
+.product__image {
+    padding-top: 120px;
+}
+
+.product__content {
+    padding-top: 245px ;
+}
+
+@media (max-width: 870px) {
+    .product__image {
+        display: none;
+    }
+    .product .container {
+        text-align: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,44 @@
+.team .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1155px;
+}
+
+.team button {
+    font-size: 16px;
+    font-weight: 500;
+    color: purple;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 16px;
+    background-color: #F7F1FF 
+}
+
+.team__title {
+    font-weight: 700;
+    font-size: 32px;
+    padding: 20px 0px;
+}
+
+.team__text {
+    color: gray;
+    font-size: 16px;
+}
+
+.team__content {
+    padding-top: 224px;
+}
+
+.team__image {
+    padding-top: 120px;
+}
+
+@media (max-width: 870px) {
+    .team__image {
+        display: none;
+    }
+    .team .container {
+        text-align: center;
+        justify-content: center;
+    }
+}

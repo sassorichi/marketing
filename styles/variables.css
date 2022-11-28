@@ -1,0 +1,12 @@
+:root {
+    --purple: #722ED1;
+    --white: #F7F1FF;
+    --gray: #8989A2;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 994px;
+    padding: 0 15px;
+}
+

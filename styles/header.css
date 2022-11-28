@@ -1,0 +1,37 @@
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav {
+    display: flex;
+    gap: 40px;
+    padding-top: 31px;
+    flex-wrap: wrap;
+}
+.header__logo {
+    padding-top: 24px;
+}
+.header__nav a{
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.header__nav a:nth-child(5) {
+    color: purple;
+}
+
+@media (max-width: 870px) {
+    .container .header__nav {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+
+/* flexbox
+margin left
+max-width min-width
+position */
